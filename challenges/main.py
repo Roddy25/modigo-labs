@@ -1,8 +1,11 @@
-def find_longest_word(words):
-    longest = words[0]
-    for word in words:
-        if len(word) > len(longest):
-            longest = word
-    # TODO: loop through `words` and update `longest` whenever
-    # a strictly longer word is found
-    return longest
+def build_countdown(start):
+    if start == 0:
+        return []
+    countdown = []
+    for i in range(start, 0, -1):
+        countdown.append(i)
+    return countdown
+print (build_countdown(5))
+print(build_countdown(1))
+print(build_countdown(0))
+print(build_countdown(3))
