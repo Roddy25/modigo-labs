@@ -1,9 +1,6 @@
-# No starter code provided — write the full function yourself.
-# Function name: split_bill
-# Parameters: bill_amount, tip_percent, people
-# Must return: each person's share, rounded to 2 decimal places
-def split_bill(bill_amount, tip_percent, people):
-    tip_amount = bill_amount * (tip_percent/100)
-    grand_total = bill_amount + tip_amount
-    persons_share = grand_total / people
-    return round(persons_share, 2)
+def sum_of_digits(number):
+    # TODO: use a for loop to add up each digit of `number`
+    total = 0
+    for num in str(number):
+        total += int(num)
+    return total
