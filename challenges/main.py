@@ -1,10 +1,9 @@
-# Read the Celsius temperature from standard input
-# Remember to convert the input string to a number (float)
-celsius_str = float(input())
-
-# Convert Celsius to Fahrenheit using the formula: F = C * 9/5 + 32
-# Store the result in a variable called 'fahrenheit'
-fahrenheit = celsius_str * 9/5 + 32# Placeholder, replace with actual calculation
-
-# Print the Fahrenheit temperature, formatted to one decimal place
-print(f"{fahrenheit:.1f}")
+# No starter code provided — write the full function yourself.
+# Function name: split_bill
+# Parameters: bill_amount, tip_percent, people
+# Must return: each person's share, rounded to 2 decimal places
+def split_bill(bill_amount, tip_percent, people):
+    tip_amount = bill_amount * (tip_percent/100)
+    grand_total = bill_amount + tip_amount
+    persons_share = grand_total / people
+    return round(persons_share, 2)
