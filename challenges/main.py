@@ -1,5 +1,5 @@
-def swap_values(a, b):
-   new_a = b
-   new_b = a
-   return (new_a, new_b)
-print(swap_values(1, 2))
+def calculate_perimeter(length, width):
+    # TODO: store 2 * (length + width) in a variable called perimeter
+    perimeter = 2 * (length + width) # TODO: replace 0 with the correct calculation
+
+    return perimeter
