@@ -1,6 +1,5 @@
-def remove_duplicates(items):
-    duplicates = []
-    for item in items:
-        if item not in duplicates:
-            duplicates.append(item)
-    return duplicates
+def swap_values(a, b):
+   new_a = b
+   new_b = a
+   return (new_a, new_b)
+print(swap_values(1, 2))
