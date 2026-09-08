@@ -1,16 +1,10 @@
-def build_profile(name, age, city):
+def calculate_total(price, quantity, delivery_fee):
     """
-    Takes a name, age, and city, and returns a formatted
-    introduction string.
+    Calculates the total cost of an order: (price * quantity) + delivery_fee.
     """
-    learner_name = name
-    learner_age = age
-    learner_city = city
+    subtotal = price * quantity  # already done for you
 
-    # TODO: build the introduction string using an f-string
-    # Format must be exactly:
-    # "Hi, I'm {name}, I'm {age} years old, and I live in {city}."
-    intro = f"Hi, I'm {name}, I'm {age} years old, and I live in {city}."  # TODO: replace this with the correct f-string
+    # TODO: create a variable called `total` that adds delivery_fee to subtotal
+    total = delivery_fee + subtotal # TODO: replace 0 with the correct calculation
 
-    return intro
-print(build_profile("Ada", 22, "lagos"))
+    return total
