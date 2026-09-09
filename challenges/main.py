@@ -1,7 +1,7 @@
-def predicted_output():
-    # Return your traced answer as a list of 4 elements
-    "apple"
-    "banana"
-    "cherry"
-    False
-    pass
+def find_max(numbers):
+    largest = numbers[0]
+    for num in numbers:
+        if num > largest:
+            largest = num
+    return largest
+print(find_max([100, 50, 100]))
