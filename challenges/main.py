@@ -1,6 +1,7 @@
-length = int(input("Length: "))
-width = int(input("Width: "))
-
-area = length * width
-
-print(f"Area: {area}")
+def predicted_output():
+    # Return your traced answer as a list of 4 elements
+    "apple"
+    "banana"
+    "cherry"
+    False
+    pass
